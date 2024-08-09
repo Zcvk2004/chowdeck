@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chowdeck-logistics</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="icon" href="img/logo.png">
+    </head>
+    <body>
+        <div class="container-fluid whole-container">
+            <header class="pt-lg-3">
+                <div class="row d-flex" style="align-items: center;">
+                    <div class="col-lg-1 col-2 img-container">
+                        <img src="img/logo.png" alt="" style="width: 55px; border-radius: 5px;">
+                    </div>
+                    <div class="col-lg-6 col-4 email-address">
+                        <i class="bi bi-geo-alt-fill" style="color: #05AA70;"></i>
+                        <span>Enter Address</span>
+                    </div>
+                    <div class="col-12 col-lg-4 order-3 input-container">
+                        <input type="search" placeholder="search...">
+                        <i class="bi bi-search d-none d-lg-block" style="position: absolute; right: 42%; top: 30px; color: #0C513F;"></i>
+                    </div>
+                    <div class="col-lg-1 col-6 order-lg-3">
+                        <a href="" id="icons">
+                            <div>
+                                <i class="bi bi-cart icon-1"></i>
+                            </div>
+                            <div>
+                                <i class="bi bi-person icon-2"></i>
+                            </div>
+                        </a>
+                    </div>  
+                </div>
+            </header>
+            <div class="row pt-5 second-section" style="border-top: solid 1px #F2F2F2;">
+                <a href="" style="color: #8f8a8a; text-decoration: none;">
+                    <p class="d-none d-lg-block"> <i class="bi bi-arrow-left"></i>Restaurants</p>
+                </a>
+                <div class="col-12 col-lg-8">
+                    <img src="img/food-2-img.jpg" alt="" class="center-img" style="filter: brightness(0.3);">
+                    <div id="opening-time">
+                        <div>
+                            <i class="bi bi-clock"></i>
+                            <span>22-32 mins</span>
+                        </div>
+                    </div>
+                    <div id="pre-order">
+                        <div>
+                            <i class="bi bi-calendar2-minus"></i>
+                            <span>Pre-order</span>
+                        </div>
+                    </div>
+                    <div class="next-day">
+                        <span>OPENS TOMORROW AT 9:00AM</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block bg-inf" style="height: 100vh; position: fixed; left: 900px;">
+                    <div class="checkout">  
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2 order-area">
+                <div class="col-lg-6 col-7" id="pastry-name">
+                    <span>MerLas Pastry - IKOTUN</span>
+                </div>
+                <div class="col-lg-2 col-5" id="rating">
+                   <span>2.0<i class="bi bi-star-fill"></i>(2)</span> 
+                </div>
+                <div class="col-lg-4 col-12" id="order-options">
+                    <div class="button-container">
+                        <button id="deliver" style="border: none;">Deliver now</button>
+                        <button id="order" style="border: none;">Pre-order</button>
+                        <button id="pickup" style="border: none;">pickup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
